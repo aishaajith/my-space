@@ -1,0 +1,86 @@
+body {background-color: #FAF0E6;}
+p
+{
+	font-family: didot;
+	font-size: large;
+	color: #00000;
+	background-color: #FAF0E6;
+}
+h1
+{
+	font-family: "Times New Roman"
+	font-size: 16px;
+	text-align: center;
+	color: #00000
+	background-color: #FAF0E6
+}
+.Container {
+	position:relative;
+	text-align: center;
+	color: #00000;
+}
+.centered {
+	font-size: 45px;
+	font-family: didot;
+	position: absolute;
+	top: 50%;
+	left:50%;
+	transform: translate(-50%, -50%);
+}
+.circle {
+	height: 80px;
+	width: 80px;
+	border-radius: 50%;
+	background-color: white;
+	position: absolute;
+	top: 55%;
+	left:47%;
+}
+.square {
+	background-color: black;
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: 69px;
+	left: 36px;
+}
+.click {
+	font-family: "helvetica";
+	font-size: 16px;
+	color: #00000;
+	position: absolute;
+	top: 59%;
+	left:47.25%;
+}
+.rectangle {
+	background-color: black;
+	width: 140px;
+	height: 20px;
+	position: absolute;
+	top: 69px;
+	left: 62px;
+}
+.aboutthisspace {
+	font-family: helvetica;
+	font-size: 15px;
+	color: #FAF0E6;
+	position: absolute;
+	top: 69px;
+	left: 72px;
+}
+.square2 {
+	background-color: black;
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: 95px;
+	left: 36px;
+}
+.rectangle2 {
+	background-color: black;
+	width: 20px;
+	height: 900px;
+	position: absolute;
+	top: 121px;
+	left: 36px;
+}
