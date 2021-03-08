@@ -1,18 +1,30 @@
-body {background-color: #FAF0E6;}
+body {background-color: white;}
 p
 {
 	font-family: didot;
 	font-size: large;
-	color: #00000;
-	background-color: #FAF0E6;
+	color: black;
 }
 h1
 {
 	font-family: "Times New Roman"
 	font-size: 16px;
 	text-align: center;
-	color: #00000
-	background-color: #FAF0E6
+	color: black;
+	background-color: white
+}
+a:link,
+a:visited {
+	color: white;
+}
+a:hover {
+	color: pink;
+}
+a:active {
+	color: #006400;
+}
+a.highlight:hover {
+	color: white;
 }
 .Container {
 	position:relative;
@@ -36,18 +48,26 @@ h1
 	top: 55%;
 	left:47%;
 }
-.square {
+.rectangle3 {
+	background-color: black;
+	height: 30px;
+	width: 93px;
+	position: absolute;
+	top: 58%;
+	left:46.5%;
+}
+.square1 {
 	background-color: black;
 	width: 20px;
 	height: 20px;
 	position: absolute;
 	top: 69px;
-	left: 36px;
+	left: 41px;
 }
 .click {
 	font-family: "helvetica";
 	font-size: 16px;
-	color: #00000;
+	color: #FAF0E6;
 	position: absolute;
 	top: 59%;
 	left:47.25%;
@@ -58,7 +78,7 @@ h1
 	height: 20px;
 	position: absolute;
 	top: 69px;
-	left: 62px;
+	left: 67px;
 }
 .aboutthisspace {
 	font-family: helvetica;
@@ -66,7 +86,16 @@ h1
 	color: #FAF0E6;
 	position: absolute;
 	top: 69px;
-	left: 72px;
+	left: 77px;
+}
+.square {
+	background-color: white;
+	width: 500px;
+	height: 500px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
 .square2 {
 	background-color: black;
@@ -74,7 +103,7 @@ h1
 	height: 20px;
 	position: absolute;
 	top: 95px;
-	left: 36px;
+	left: 41px;
 }
 .rectangle2 {
 	background-color: black;
@@ -82,5 +111,5 @@ h1
 	height: 900px;
 	position: absolute;
 	top: 121px;
-	left: 36px;
+	left: 41px;
 }
