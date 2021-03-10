@@ -1,0 +1,33 @@
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.centered {
+  font-size: 45px;
+  font-family: didot;
+  position: absolute;
+  color: white;
+  top: 70%;
+  left:50%;
+  transform: translate(-50%, -50%);
+}
+
+.heading{
+  letter-spacing: 0.5rem;
+  font-family: helvetica;
+  color: black;
+}
+
+span{
+  display: inline-block;
+  opacity: 0;
+  transform: translateY(-100%);
+  transition: all 0.5s ease-in-out
+}
+
+.fade{
+ opacity: 1;
+ transform: translateY(0);
+}

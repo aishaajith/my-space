@@ -2,12 +2,12 @@ body {background-color: white;}
 p
 {
 	font-family: helvetica;
-	font-size: 14px;
+	font-size: 17px;
 	color: black;
 }
 .square {
 	background-color: transparent;
-	width: 500px;
+	width: 650px;
 	height: 1000px;
 	position: absolute;
 	top: 95%;
@@ -15,14 +15,14 @@ p
 }
 .titles {
 	font-family: helvetica;
-	font-size: 20px;
+	font-size: 30px;
 	font-weight:bolder;
-	color: #006400;
+	color: #FF0000;
 }
 .subtitles {
 	font-family: helvetica;
 	font-size: 16px;
-	color: #006400;
+	color: #FF0000;
 	font-weight: bold;
 }
 .centered {
@@ -30,4 +30,15 @@ p
   top: 50%;
   left:50%;
   transform: translate(-50%, -50%);
+}
+.largetext {
+	font-family: helvetica;
+	font-size: 40px;
+	font-weight:bolder;
+	color: #FF0000;
+}
+.home {
+	position:absolute;
+	left: 50px;
+	top: 2250px;
 }

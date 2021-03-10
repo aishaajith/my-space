@@ -1,0 +1,57 @@
+.topleft {
+  position: absolute;
+  top: 40px;
+  left: 50px;
+  font-size: 18px;
+}
+a:link,
+a:visited {
+	color: white;
+}
+a:hover {
+	color: black;
+}
+a:active {
+	color: #FF0000;
+}
+a.highlight:hover {
+	color: white;
+}
+.video {
+  position:fixed;
+  left: 670px;
+  top: 600px;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+}
+p
+{
+  font-family: helvetica;
+  font-size: 14px;
+  color: black;
+}
+.position {
+  position: absolute;
+  top: 200%;
+  left:275%;
+}
+.click {
+	font-family: "helvetica";
+	font-size: 16px;
+	color: black;
+	position: absolute;
+	top: 450%;
+  	left:410%;
+}
+.rectangle {
+	background-color: #FF0000;
+	width: 55px;
+	height: 150px;
+	position: absolute;
+	top: 445%;
+  	left:405%;
+}

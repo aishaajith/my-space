@@ -1,0 +1,80 @@
+html, body {
+  height: 100%;
+}
+p
+{
+  font-family: helvetica;
+  font-size: 14px;
+  color: black;
+}
+.position {
+  position: absolute;
+  top: 200%;
+  left:275%;
+}
+.square {
+  background-color: transparent;
+  width: 500px;
+  height: 1000px;
+  position: absolute;
+  top: 95%;
+  left: 30%;
+}
+.titles {
+  font-family: helvetica;
+  font-size: 20px;
+  font-weight:bolder;
+  color: #006400;
+}
+.subtitles {
+  font-family: helvetica;
+  font-size: 16px;
+  color: #006400;
+  font-weight: bold;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+}
+#root {
+  overflow: hidden;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#wrapper {
+  overflow: hidden;
+  display: none;
+  width: 370px;
+}
+
+#text {
+  padding: 0.5em 1em;
+  border: 1px solid #ddd;
+  border-radius: 2px;
+}
+
+#button {
+  padding: 0.3em 0.6em;
+  border: 1px solid #FF0000;
+  margin-top: 1em;
+  border-radius: 2px;
+  color: #FF0000;
+  cursor: pointer;
+}
+.video {
+  position:fixed;
+  left: 670px;
+  top: 600px;
+}
+.topleft {
+  position: absolute;
+  top: 40px;
+  left: 50px;
+  font-size: 18px;
+}
